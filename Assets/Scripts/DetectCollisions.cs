@@ -21,7 +21,8 @@ public class DetectCollisions : MonoBehaviour
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
-        
+        ScoreScript.scoreValue += 1;
+
         if (other.CompareTag("Player"))
         {
           gameManager.AddLives(-1);
@@ -30,7 +31,7 @@ public class DetectCollisions : MonoBehaviour
         }
         else if (other.CompareTag("Enemy"))
         {
-            gameManager.AddScore(5);
+            gameManager.AddScore(1);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
