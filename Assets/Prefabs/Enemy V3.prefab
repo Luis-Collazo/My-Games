@@ -499,9 +499,8 @@ GameObject:
   - component: {fileID: 7338204543113442422}
   - component: {fileID: 2893815634839534017}
   - component: {fileID: 2477843703173334106}
-  - component: {fileID: 5036060112771176275}
   - component: {fileID: 5683366888773266185}
-  - component: {fileID: 7665239054349298975}
+  - component: {fileID: 5687335369748296014}
   m_Layer: 0
   m_Name: Enemy V3
   m_TagString: Enemy
@@ -605,20 +604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 764f9bdac3da06d4589cc05801550df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1.5
 --- !u!114 &2477843703173334106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8907874050402753448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41c41575ff8b5d94fb174063a7069b22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5036060112771176275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,7 +630,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7665239054349298975
+--- !u!114 &5687335369748296014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
