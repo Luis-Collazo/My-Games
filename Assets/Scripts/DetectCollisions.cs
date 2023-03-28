@@ -21,12 +21,12 @@ public class DetectCollisions : MonoBehaviour
     {
         if(other.CompareTag("Player 1"))
         {
-            Destroy(gameObject);
+           Destroy(gameObject);
             Destroy(other.gameObject);
             ScoreScript.scoreValue += 1;
         }
 
-        if (other.CompareTag("Player 2"))
+       if (other.CompareTag("Player 2"))
         {
             Destroy(gameObject);
             Destroy(other.gameObject);

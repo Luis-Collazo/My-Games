@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     {
        score += value;
        Debug.Log("Score = " + score);
-        otherscoreValue += value;
-        Debug.Log("Score =" + otherscoreValue);
+        //otherscoreValue += value;
+        //Debug.Log("Score =" + otherscoreValue);
     }
 }
