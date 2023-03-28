@@ -5,10 +5,10 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;
-    private float spawnRangeX = 10;
-    private float spawnPosZ = 10;
+    private float spawnRangeX = -36;
+    private float spawnPosZ = 15;
     private float startDelay = 2;
-    private float spawnInterval = .55f;
+    private float spawnInterval =  1.5f;
 
     // Start is called before the first frame update
     void Start()
