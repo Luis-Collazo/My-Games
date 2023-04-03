@@ -34,10 +34,9 @@ public class DetectCollisions : MonoBehaviour
         }
 
         //if (other.CompareTag("Player"))
-        // {
-        //gameManager.AddLives(-1);
-        //Destroy(gameObject);
-        //Destroy(other.gameObject);  
+        //{
+         //gameManager.AddLives(-1);
+        // Destroy(gameObject);
         //}
         else if (other.CompareTag("Enemy"))
         {
@@ -45,10 +44,21 @@ public class DetectCollisions : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
+
+        if (other.CompareTag("Player 1"))
+        {
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag("Player 2"))
+        {
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+
+
     }
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-
-    //}
+    
 }
