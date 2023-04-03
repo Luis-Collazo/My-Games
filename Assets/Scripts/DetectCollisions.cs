@@ -46,4 +46,9 @@ public class DetectCollisions : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+
+    //}
 }
