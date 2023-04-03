@@ -19,21 +19,46 @@ public class DetectCollisions : MonoBehaviour
 
     void OnTriggerEnter(Collider other) 
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
-        ScoreScript.scoreValue += 1;
-
-        if (other.CompareTag("Player"))
+        if(other.CompareTag("Player 1"))
         {
-          gameManager.AddLives(-1);
-          Destroy(gameObject);
-          Destroy(other.gameObject);  
+           Destroy(gameObject);
+            Destroy(other.gameObject);
+            ScoreScript.scoreValue += 1;
         }
+
+       if (other.CompareTag("Player 2"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            ScoreScript.scoreValue += 1;
+        }
+
+        //if (other.CompareTag("Player"))
+        //{
+         //gameManager.AddLives(-1);
+        // Destroy(gameObject);
+        //}
         else if (other.CompareTag("Enemy"))
         {
             gameManager.AddScore(1);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
+
+        if (other.CompareTag("Player 1"))
+        {
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag("Player 2"))
+        {
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+
+
     }
+
+    
 }
