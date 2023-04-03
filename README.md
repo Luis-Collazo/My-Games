@@ -1,12 +1,14 @@
-Title of Game: Cinnamon VS Fruit: Candy War
+Title of Game: 
 
-Description of Game: Cinnamon VS Fruit: Candy War is a side scrolling shooter where you control the last of the Cinnamon Candy Clan "Fire Red" in a war against the Fruit Candy Clan. This game takes place in a candy box. 
+Description of Game: Two Players must work together as they face a never ending horde of enmies. How long will they be able to hold out before they are inevitably overrun. 
 
-Controls: A & D or Left/Right arrows; Space to shoot
+Controls: Player 1: tap A and D to shift to the right and left of the battlefeild. Use space to shoot and take out enemies
+Player 2: tap left and right arrow keys to shift to the right and left of the battlefeild. Use numberkey7 to shoot and take out enemies
 
-How to Play: Move player left and right with A & D or Left/Right arrows and space to shoot. Kill the Targets and Score 1k points.
+How to Play: Both players work to take down as many enemies as possible while also working to score as high as they can. 
 
-Features: For this type of game I wanted it to be simple. I chose to use the 3d elements given in unity to build the background, player, projectile, and enemies. I chose Unity for the 3D elements instead of using something like Maya because originally I wanted to create a space invaders type game but when entering Maya for the first time in a while I got really overwhelmed and felt like if I had more time then I would’ve been able to relearn the program and create the player and enemy models for that original idea that I had. But then I was given the idea to do a candy shooter by the playtesters and I decided to go forward with that. I chose the 3D Capsules to create the candy models for both the player and the enemies. Then using materials, I colored them all different colors representing different flavors of their respective candies. 
-            For the background of the game, I used 3D objects to create something that resembles the inside of an empty candy box, and the end of the box is where the open flaps are. Another feature used was the shooting feature. I thought it would be cool to have a horde mode style game where every time you shoot you get points, so I added a shooting element to it and a score to keep track of the kills. Enemy spawns being random and quick is also something I implemented in order to make it feel like a traditional horde mode style game.
+
+Features: Some of the more intresting features that were added to the game were that the enemies have different behaviors that require the players to have to think and work a little harder when it comes to figureing out who they should shoot down next. Such as ememies with different movemtnt patterns and others that will have to take multiple hits in order to be destroyed.There was also the addition of a split scoring system so while the players are intended to work together, they can compete for the higest score against eachother as well.
+
 
 Assets Used: None
