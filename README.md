@@ -1,4 +1,4 @@
-Title of Game: 
+Title of Game: Goofy Sliders
 
 Description of Game: Two Players must work together as they face a never ending horde of enmies. How long will they be able to hold out before they are inevitably overrun. 
 
