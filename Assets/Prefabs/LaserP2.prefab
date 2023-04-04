@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7689802127400337427}
   - component: {fileID: 2816333266977066223}
   - component: {fileID: 1904700851687357184}
+  - component: {fileID: 5541940897994819780}
   m_Layer: 0
   m_Name: LaserP2
   m_TagString: Player 2
@@ -155,3 +156,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5541940897994819780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574043260163955661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb50fa3337553b469214c2458832473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

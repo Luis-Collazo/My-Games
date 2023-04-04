@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 1839594234}
   - component: {fileID: 8131654983689058339}
   - component: {fileID: 4430270424464962783}
-  - component: {fileID: 607466280050771334}
+  - component: {fileID: 1839594236}
+  - component: {fileID: 7037434105011331091}
   m_Layer: 0
   m_Name: Laser
   m_TagString: Player 1
@@ -139,7 +140,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &607466280050771334
+--- !u!54 &1839594236
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,3 +156,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7037434105011331091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7823814405233583101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb50fa3337553b469214c2458832473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

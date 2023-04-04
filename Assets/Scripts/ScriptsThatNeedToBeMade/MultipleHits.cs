@@ -6,19 +6,21 @@ using UnityEngine.UI;
 
 public class MultipleHits : MonoBehaviour
 {
-    public Slider hungerSlider;
+    //public Slider hungerSlider;
     public int amountToBeFed;
     private int currentFedAmount = 0;
     private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        hungerSlider.maxValue = amountToBeFed;
-        hungerSlider.value = 0;
-        hungerSlider.fillRect.gameObject.SetActive(false);
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+       // hungerSlider.maxValue = amountToBeFed;
+       // hungerSlider.value = 0;
+        //hungerSlider.fillRect.gameObject.SetActive(false);
 
 
-        //gameManager = GameObject.Find("GameManager").GetCompnent<GameManager>();
+        
     }
 
 
@@ -33,8 +35,8 @@ public class MultipleHits : MonoBehaviour
     public void FeedAnimal(int amount)
     {
         currentFedAmount += amount;
-        hungerSlider.value = currentFedAmount;
-        hungerSlider.fillRect.gameObject.SetActive(true);
+        //hungerSlider.value = currentFedAmount;
+        //hungerSlider.fillRect.gameObject.SetActive(true);
 
 
         if(currentFedAmount >= amountToBeFed)

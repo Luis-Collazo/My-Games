@@ -40,9 +40,10 @@ public class DetectCollisions : MonoBehaviour
         //}
         else if (other.CompareTag("Enemy"))
         {
-            gameManager.AddScore(1);
+            //other.GetComponent<MultipleHits>().FeedAnimal(1);
+            //gameManager.AddScore(1);
+            //Destroy(gameObject);
             Destroy(gameObject);
-            Destroy(other.gameObject);
         }
 
         if (other.CompareTag("Player 1"))
