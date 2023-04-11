@@ -31,6 +31,12 @@ public class PlayerControler2 : MonoBehaviour
             position.x++;
             this.transform.position = position;
         }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+
        // if (Input.GetKeyDown(KeyCode.UpArrow))
        // {
            // Vector3 position = this.transform.position;
@@ -44,7 +50,7 @@ public class PlayerControler2 : MonoBehaviour
            // this.transform.position = position;
        // }
 
-        if (Input.GetKeyDown(KeyCode.Keypad7))
+        if (Input.GetKeyDown(KeyCode.Alpha7))
         {
             // Player shooting Projectile
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);

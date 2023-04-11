@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -31,20 +31,24 @@ public class PlayerController : MonoBehaviour
             position.x++;
             this.transform.position = position;
         }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
         //if (Input.GetKeyDown(KeyCode.W))
         //{
-            //Vector3 position = this.transform.position;
-            //position.y++;
-            //this.transform.position = position;
-       // }
-       // if (Input.GetKeyDown(KeyCode.S))
-       // {
-            //Vector3 position = this.transform.position;
-            //position.y--;
-           // this.transform.position = position;
+        //Vector3 position = this.transform.position;
+        //position.y++;
+        //this.transform.position = position;
+        // }
+        // if (Input.GetKeyDown(KeyCode.S))
+        // {
+        //Vector3 position = this.transform.position;
+        //position.y--;
+        // this.transform.position = position;
         //}
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
           // Player shooting Projectile
           Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
